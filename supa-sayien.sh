@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear 
-line="==================================================================================="
+line="================================================================================="
 echo -n "Enter your name: "
 read name  
 echo
@@ -41,17 +41,5 @@ echo
 #firefox -new-tab http://youtube.com &
 #sleep 1
 #firefox -new-tab http://facebook.com
-
-
-
-
-
-
-
-
-
-
-
-
 
 
