@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear 
-line="===================================================================================="
+line="==================================================================================="
 echo -n "Enter your name: "
 read name  
 echo
@@ -34,13 +34,13 @@ cpu=$(top -bn1 | awk '/Cpu/{print $5}')
 echo "number of cpu not used:" $cpu
 echo
 
-read -p "press <enter> to continue" 
+#read -p "press <enter> to continue" 
 
-firefox http://google.com &
-sleep 1
-firefox -new-tab http://youtube.com &
-sleep 1
-firefox -new-tab http://facebook.com
+#firefox http://google.com &
+#sleep 1
+#firefox -new-tab http://youtube.com &
+#sleep 1
+#firefox -new-tab http://facebook.com
 
 
 
