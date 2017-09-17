@@ -2,17 +2,17 @@
 
 n=5;
 
-  #outer loop is for printing number of rows in the pyramid
+  #outer loop is for printing number of rows in the pyramid.
   for((i=1;i<=n;i++))
   do
 
-      #This loop print spaces required
+      #This loop print spaces required.
       for((k=i;k<=n;k++))
       do
         echo -ne " ";
       done
 
-      #This loop print part1 of the the pyramid
+      #This loop print part1 of the the pyramid.
       for((j=1;j<=i;j++))
       do
       echo -ne "*";
@@ -24,7 +24,7 @@ n=5;
       echo -ne "*";
       done
       
-      #This echo used for printing new line
+      #This echo used for printing new line.
       echo;
   done
 
