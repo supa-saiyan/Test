@@ -1,3 +1,7 @@
+#This program is to print pyramid
+#from:  pritesh
+#for test purpose 
+
 #!/bin/bash
 
 n=5;
@@ -27,4 +31,3 @@ n=5;
       #This echo used for printing new line.
       echo;
   done
-
